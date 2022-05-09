@@ -72,8 +72,8 @@ public class register extends AppCompatActivity {
 
 
                 });
-//                Intent intent= new Intent(register.this, ProfileUser.class);
-//                startActivity(intent);
+                Intent intent= new Intent(register.this, Product.class);
+                startActivity(intent);
 
             }
         });

@@ -54,8 +54,8 @@ public class Login02 extends AppCompatActivity {
                     Toast.makeText(Login02.this, "Dang nhap thanh cong", Toast.LENGTH_SHORT).show();
                     edtEmail.setText("");
                     edtPass.setText("");
-//                    Intent intent= new Intent(Login02.this, ProfileUser.class);
-//                    startActivity(intent);
+                    Intent intent= new Intent(Login02.this, Product.class);
+                    startActivity(intent);
                 } else {
                     Toast.makeText(Login02.this, "Dang nhap khong thanh cong", Toast.LENGTH_SHORT).show();
 
